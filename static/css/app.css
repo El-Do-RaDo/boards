@@ -1,0 +1,9 @@
+body{
+    background-image: url(../images/moroccan-flower-dark.png);
+    
+}
+
+.navbar-brand {
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: bold;
+}

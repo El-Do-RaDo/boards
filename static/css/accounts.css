@@ -1,0 +1,27 @@
+body {
+    background-image: url(../images/moroccan-flower-dark.png);
+}
+
+.card {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 9px 15px;
+}
+
+.helptext{
+    display: none;
+}
+ul{
+    display: none;
+}
+.logo {
+    font-family: 'DotGothic16', cursive;
+}
+.logo a {
+    color: rgba(255, 255, 255, 0.9);
+}
+.logo a:hover, .logo a:active {
+    text-decoration: none;
+}
+
+
