@@ -14,3 +14,6 @@ Django is a high-level Python web framework that enables rapid development of se
 * **Scalable**
 
      Django uses a component-based “shared-nothing” architecture (each part of the architecture is independent of the others, and can hence be replaced or changed if needed). Having a clear separation between the different parts means that it can scale for increased traffic by adding hardware at any level: caching servers, database servers, or application servers. Some of the busiest sites have successfully scaled Django to meet their demands (e.g. Instagram and Disqus, to name just two).
+
+Here is a simple strutural flow of django web framework which is a python based.
+![picture alt](static/images/basic-django.png)
