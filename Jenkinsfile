@@ -14,7 +14,7 @@ agent any
           echo 'this is build'
             }
          }
-    
+    }
     stage(test) {
       steps{
          script {
