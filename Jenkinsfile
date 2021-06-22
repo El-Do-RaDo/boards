@@ -1,6 +1,6 @@
 pipeline {
 
-angent any
+agent any
   
   stages {
     stage(git_checkout) {
