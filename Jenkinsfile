@@ -8,6 +8,19 @@ agent any
           git branch: 'main', credentialsId: 'brijesh2311', url: 'https://github.com/brijesh2311/boards.git'
             }
          }
+    stage(Build) {
+      steps{
+          git branch: 'main', credentialsId: 'brijesh2311', url: 'https://github.com/brijesh2311/boards.git'
+            }
+         }
+    
+    stage(test) {
+      steps{
+          git branch: 'main', credentialsId: 'brijesh2311', url: 'https://github.com/brijesh2311/boards.git'
+            }
+         }
+    
+    
       }
 
   
