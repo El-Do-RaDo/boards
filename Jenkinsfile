@@ -10,13 +10,13 @@ agent any
          }
     stage(Build) {
       steps{
-          git branch: 'main', credentialsId: 'brijesh2311', url: 'https://github.com/brijesh2311/boards.git'
+          echo "this is build"
             }
          }
     
     stage(test) {
       steps{
-          git branch: 'main', credentialsId: 'brijesh2311', url: 'https://github.com/brijesh2311/boards.git'
+         echo "this is test"
             }
          }
     
