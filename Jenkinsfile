@@ -10,13 +10,15 @@ agent any
          }
     stage(Build) {
       steps{
-          echo "this is build"
+          script {
+          echo 'this is build'
             }
          }
     
     stage(test) {
       steps{
-         echo "this is test"
+         script {
+          echo 'this is test'
             }
          }
     
